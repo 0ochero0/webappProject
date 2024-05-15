@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  #reportForm {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .area-selection, .facility-selection {
+    margin: 20px 0;
+  }
+  
+  button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  button img {
+    width: 400px;
+    height: 400px;
+    display: block;
+    margin: 0 auto
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  #confirmationMessage {
+    margin-top: 20px;
+    font-size: 24px;
+    color: green;
+  }
+  

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Office Facility Issue Report</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div id="reportForm">
+    <h1>Report an Issue</h1>
+    <div class="area-selection">
+      <h2>Select Area</h2>
+      <button class="area-btn" data-area="meeting_room">
+        <img src="/pics/meeting.JPG" alt="Meeting Room">
+        Meeting Room
+      </button>
+      <button class="area-btn" data-area="lobby">
+        <img src="/pics/lobby.jpg" alt="Lobby">
+        Lobby
+      </button>
+      <button class="area-btn" data-area="pantry">
+        <img src="/pics/pantry.jpg" alt="Pantry">
+        Pantry
+      </button>
+      <button class="area-btn" data-area="office">
+        <img src="/pics/office.jpg" alt="office">
+      Office
+      </button>
+    </div>
+
+    <div class="facility-selection" style="display:none;">
+      <h2>Select Facility</h2>
+      <button class="facility-btn" data-facility="light">
+        <img src="/pics/lights.jpg" alt="Light">
+        Light
+      </button>
+      <button class="facility-btn" data-facility="door">
+        <img src="/pics/208-2081416_door-svg-entrance-door-clipart.png" alt="Door">
+        Door
+      </button>
+      <button class="facility-btn" data-facility="furniture">
+        <img src="furniture.png" alt="Furniture">
+        Furniture
+      </button>
+      <button class="facility-btn" data-facility="floor">
+        <img src="floor.png" alt="Floor">
+        Floor
+      </button>
+    </div>
+  </div>
+  <div id="confirmationMessage"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
